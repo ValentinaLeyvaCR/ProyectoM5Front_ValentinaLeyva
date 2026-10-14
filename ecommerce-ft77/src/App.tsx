@@ -1,14 +1,8 @@
-import type  { JSX } from "react";
-import { Header } from "./components/common/header";
-import { ProductList } from "./components/common/ProductList";
+import { BrowserRouter } from "react-router-dom";
+import { AppRoutes } from "./routes/AppRoutes";
 
-function App(): JSX.Element {
-  return (
-    <div style={{ padding: "2rem" }}>
-      <Header />
-      <ProductList />
-    </div>
-  );
+function App() {
+  return <BrowserRouter><AppRoutes /></BrowserRouter>;
 }
 
 export default App;
