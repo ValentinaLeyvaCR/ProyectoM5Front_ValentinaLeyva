@@ -11,5 +11,13 @@ export default defineConfig({
     clearMocks: true,
     pool: 'threads',
     maxWorkers: 1,
+    coverage: {
+      provider: 'v8',
+      reporter: ['text', 'lcov'],
+      include: ['src/**/*.{ts,tsx}'],
+      exclude: ['src/test/**', 'src/**/*.d.ts'],
+    },
   },
 })
+
+
