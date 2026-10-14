@@ -107,6 +107,12 @@ Las variables `VITE_*` están disponibles en el cliente y no deben contener secr
 
 Las pruebas usan Vitest y React Testing Library. Cubren autenticación, rutas protegidas, catálogo, carrito y checkout, historial de órdenes, administración, Firestore y carga de imágenes. Firebase y S3 se simulan durante las pruebas.
 
+## Credenciales de prueba
+
+**Rol:** Administrador  
+**Correo:** pruebaadminspidershop@gmail.com  
+**Contraseña:** Prueba.spidershop13
+
 ## Seguridad
 
 - Las reglas de Firestore limitan la lectura de órdenes al cliente propietario y al administrador.
